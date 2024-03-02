@@ -24,7 +24,7 @@ def calculate_speed(previous_centroid, current_centroid, fps):
 cap = cv2.VideoCapture(0)
 
 # Load pre-trained car detection classifier
-car_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_car.xml')
+car_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_eye.xml')
 
 # Dictionary to store previous centroid positions of detected cars
 prev_centroids = OrderedDict()
