@@ -28,6 +28,10 @@ pip install opencv-python numpy scipy
 
 #### Usage:
 
+- Copy the haarcascade_car.xml to the location where opencv picks the file, generally in the opencv-python ~ lib\site-packages\cv2\data
+It's easy with error message when running first time where the opencv is looking and then update it there. 
+
+
 ##### Car Detection
 1. Navigate to the project directory.
 2. Run the main script for car detection:
