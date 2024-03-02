@@ -28,11 +28,23 @@ pip install opencv-python numpy scipy
 
 #### Usage:
 
+##### Car Detection
 1. Navigate to the project directory.
-2. Run the main script:
+2. Run the main script for car detection:
 
 ```bash
 python car_speed_estimation.py
+```
+1. The live video feed will open, showing detected cars with their estimated speeds marked on the screen.
+2. Press 'q' to exit the video feed.
+
+##### Face detection 
+
+1. Navigate to the project directory.
+2. Run the main script for face detection:
+
+```bash
+python face_detect.py
 ```
 1. The live video feed will open, showing detected cars with their estimated speeds marked on the screen.
 2. Press 'q' to exit the video feed.
